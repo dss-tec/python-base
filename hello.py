@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
-""" Hello World Many Languages.
+""" Hello World in Multi Languages.
 
 This program printing the Hello World message based on the LANG enviroment variable of system.
 
 How to use:
-    You need have the LANG variable configured on system. Case the LANG variable were unset,
-the message will be showed in english.
+    You need to have the LANG variable configured on system.
+
+    To define the LANG variable in Linux Systems, do:
+        export LANG=pt_BR
+
+    Case the LANG variable were unset, the message will be showed in english.
 
 Excute:
     ./hello.py
 """
+__version__ = "0.0.1"
+__author__ = "Daniel Santos"
+__license__ = "Unlicense"
 
 import os
 
